@@ -1,0 +1,24 @@
+{
+  "private": false,
+  "name": "@toxictoast/azkaban-base-types",
+  "version": "0.0.1",
+  "description": "Base Types for my Azkaban Services",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "run": "ts-node src/index.ts",
+    "build": "tsup"
+  },
+  "author": "ToxicToast",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
