@@ -13,12 +13,16 @@
     "run": "ts-node src/index.ts",
     "build": "tsup"
   },
-  "author": "ToxicToast",
+  "author": "ToxicToast <info@toxictoast.de> (https://blog.toxictoast.de/)",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ToxicToast/Azkaban-Base-Types.git"
   }
 }
